@@ -67,15 +67,11 @@ SSHes into EC2
 Deploys (or updates) the Yii2 Docker Swarm service
 
 Assumptions
-You are deploying to a single Ubuntu-based EC2 instance.
-
-Your instance has a public IP and is accessible via SSH.
-
-The Docker Hub account is used for storing the image.
-
-The domain is optional; NGINX reverse proxy works with public IP.
-
-Basic Yii2 sample app is used for testing purposes.
+1. You are deploying to a single Ubuntu-based EC2 instance.
+2. Your instance has a public IP and is accessible via SSH.
+3. The Docker Hub account is used for storing the image.
+4. The domain is optional; NGINX reverse proxy works with public IP.
+5. Basic Yii2 sample app is used for testing purposes.
 
 How to Test Deployment
 Access the Application
