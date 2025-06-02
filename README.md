@@ -73,9 +73,10 @@ Assumptions
 4. The domain is optional; NGINX reverse proxy works with public IP.
 5. Basic Yii2 sample app is used for testing purposes.
 
-How to Test Deployment
-Access the Application
-Open the EC2 public IP in a browser:
+How to Test Deployment:
+
+1. Access the Application
+2. Open the EC2 public IP in a browser:
 ```
 http://<your-ec2-public-ip>
 ```
