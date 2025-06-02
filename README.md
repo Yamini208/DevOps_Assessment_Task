@@ -58,14 +58,11 @@ git push origin main
 ```
 This runs the CI/CD workflow:
 
-Builds the Docker image
-
-Pushes to Docker Hub
-
-SSHes into EC2
-
-Deploys (or updates) the Yii2 Docker Swarm service
-
+1. Builds the Docker image
+2. Pushes to Docker Hub
+3. SSHes into EC2
+4. Deploys (or updates) the Yii2 Docker Swarm service
+   
 Assumptions
 1. You are deploying to a single Ubuntu-based EC2 instance.
 2. Your instance has a public IP and is accessible via SSH.
