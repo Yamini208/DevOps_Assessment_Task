@@ -1,0 +1,8 @@
+- name: Initialize Docker Swarm
+  shell: docker swarm init || true
+
+- name: Create external Docker network
+  shell: docker network create --driver overlay app-net || true
+
+- name: Deploy Yii2 App
+  shell: docker service create --name yii2_service --network app-net -p 8080:80 sriyamini208/yii2-app:latest || docker service update --image sriyamini208/yii2-app:latest yii2_service
