@@ -39,6 +39,7 @@ Deploy the Yii2 application as a Docker Swarm service
 
 4. Set Up GitHub Secrets
 In your GitHub repository settings, add the following secrets:
+
 | Name             | Purpose                             |
 |------------------|-------------------------------------|
 | DOCKER_USERNAME  | Docker Hub username                 |
@@ -46,6 +47,7 @@ In your GitHub repository settings, add the following secrets:
 | HOST             | EC2 public IP                       |
 | USERNAME         | SSH user (usually `ubuntu`)         |
 | SSH_PRIVATE_KEY  | SSH private key to access EC2       |
+
 
 5. Trigger Deployment
 Push to the main branch:
