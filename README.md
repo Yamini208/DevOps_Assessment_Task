@@ -76,8 +76,9 @@ Assumptions
 How to Test Deployment
 Access the Application
 Open the EC2 public IP in a browser:
+```
 http://<your-ec2-public-ip>
-
+```
 Verify Docker Swarm
 SSH into your EC2 and run:
 ```
